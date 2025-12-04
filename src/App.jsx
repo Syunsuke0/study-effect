@@ -1,6 +1,6 @@
 import "./App.css";
 import Counter from "./Counter";
-import PostFetcher from "./PostFecher";
+import PostFetcher from "./PostFetcher";
 
 function App() {
   return (
