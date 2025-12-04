@@ -1,14 +1,15 @@
 import "./App.css";
 import Counter from "./Counter";
 import PostFetcher from "./PostFetcher";
+import PostFetcherLoader from "./PostFetcherLoader";
 
-function App() {
+const App = () => {
   return (
     <div>
       {/* <Counter /> */}
-      <PostFetcher />
+      <PostFetcherLoader />
     </div>
   );
-}
+};
 
 export default App;
